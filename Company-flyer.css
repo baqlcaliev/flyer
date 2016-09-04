@@ -1,0 +1,161 @@
+body{
+    background-color:#E9DBC0;
+}
+.flyer {
+    background: #828383; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #828383, #DADCDA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #828383, #DADCDA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #828383, #DADCDA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #828383, #DADCDA); /* Standard syntax */
+    background-repeat: no-repeat;
+    height:100%;
+    width:60%;
+    margin:40px auto;
+    background-attachment: fixed;
+}
+
+
+
+
+
+/*******************************image*********************************/
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/***************************image**************************************/
+
+.YourImage{
+    margin: 100px auto;
+    width:70%;
+    text-align:center;
+}
+
+.ThreeImages{
+    margin:0px auto ;
+    text-align:center;
+    width:95%;
+    height:100%;
+    color:white;
+}
+
+.inside{
+    margin:15px;
+    background-color:#F0124F;
+}
+
+.firstImage{
+    width:29%;
+    height:80px;
+    float:left;
+    z-index:2;
+    background-color:#580332;
+}
+.secondImage{
+    width:29%;
+    height:80px;
+    margin:auto;
+    display:inline-block;
+    z-index:2;
+    background-color:#580332;
+}
+.thirdImage{
+    width:29%;
+    float:right;
+    z-index:2;
+    background-color:#580332;
+    height:80px;
+}
+
+.footer{
+    height:250px;
+    width:100%;
+    margin: -250px 0px 0px 0px;
+    background-color:purple;
+    z-index:1;
+    background-color:#6F6DBF;
+}
+
+.footerLine{
+    margin-top:40px;
+}
+
+.text{
+    color:white;
+    background-color:#6F6DBF;
+}
+
+@media(max-width:1338px){
+    .firstImage{
+        width:100%;
+        height:50%;
+        z-index:2;
+        background-color:#580332;
+        margin:20px auto;
+    }
+    .secondImage{
+        width:100%;
+        height:50%;
+        z-index:2;
+        background-color:#580332;
+        margin:20px auto;
+    }
+    .thirdImage{
+        width:100%;
+        height:50%;
+        z-index:2;
+        background-color:#580332;
+        margin:20px auto;
+    }
+    .footer{
+        height:20px;
+        width:100%;
+        margin: auto;
+        background-color:purple;
+        z-index:1;
+        background-color:#580332;
+    }
+}
+
